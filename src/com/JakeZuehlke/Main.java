@@ -86,6 +86,9 @@ public class Main
                 de.Decryption(shift);
                 de.toFile();
 
+            //output decryption
+            System.out.println("Decrypted Message: " + de.toString());
+
             //close the file
             inputFile.close();
         }

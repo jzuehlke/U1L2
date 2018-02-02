@@ -1,11 +1,11 @@
 package com.JakeZuehlke;
 
 /**
- * @author Jake Zuehlke
  * TestScores class:
  * This class accepts and array of test scores as its argument,
  * can return average of test scores given,
  * and throws IllegalArgumentException for scores less than 0 or greater than 100
+ * @author Jake Zuehlke
  */
 public class TestScores
 {

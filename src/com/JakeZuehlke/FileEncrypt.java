@@ -2,11 +2,11 @@ package com.JakeZuehlke;
 import java.io.*;
 
 /**
- * @author Jake Zuehlke
  * File Encrypt class:
  * This class' constructor accepts a string,
  * then with the Encryption method the string's letters are shifted based on
  * the passed integer value.  This shift will be to the right alphabetically.
+ * @author Jake Zuehlke
  */
 public class FileEncrypt
 {
@@ -33,7 +33,7 @@ public class FileEncrypt
     /**
      * Encryption:
      * Applies a Ceasarian Shift cipher to the passed file String.
-     * @param shift - the integer value of the Ceasarian Shift
+     * @param shift the integer value of the Ceasarian Shift
      */
     public void Encryption(int shift)
     {

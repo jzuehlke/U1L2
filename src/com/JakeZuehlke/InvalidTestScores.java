@@ -1,10 +1,10 @@
 package com.JakeZuehlke;
 
 /**
- * @author Jake Zuehlke
  * InvalidTestScores:
  * This is a custom exception class for use with TestScores,
  * it returns a custom phrase for the exception thrown.
+ * @author Jake Zuehlke
  */
 public class InvalidTestScores extends Exception
 {

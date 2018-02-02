@@ -2,11 +2,11 @@ package com.JakeZuehlke;
 import java.io.*;
 
 /**
- * @author Jake Zuehlke
  * FileDecrypt class:
  * This class' constructor accepts a string,
  * then with the Decryption method the string's letters are shifted based on
  * the passed integer value.  This shift will be to the left alphabetically.
+ * @author Jake Zuehlke
  */
 public class FileDecrypt
 {
@@ -38,7 +38,7 @@ public class FileDecrypt
             if(c != ' ' && c != '.' && c != ',')
             {
                 c = (char)(encryptedFile.charAt(i) - shift);
-                if((c > 'Z' && c < 'a') || (shift > 6 && (c <= 'Z' && c < 'S')))
+                if((c > 'Z' && c < 'a') || (shift > 6 && (c <= 'Z' && c > 'S')))
                 {
                     //this subtracts 6 to the shift to avoid non-letters, then corrects the new shift
                     this.decryptedFile += (char)(c - 6);
