@@ -12,8 +12,8 @@ public class TestScores
     private int[] scores;
 
     /**
-     * @param scoreArray
      * The constructor accepts an array of test score integers
+     * @param scoreArray
      */
     public TestScores(int[] scoreArray)
     {
@@ -23,9 +23,10 @@ public class TestScores
     /**
      * This method will return the average of the given scores,
      * @throws InvalidTestScores for test scores below 0 and above 100
-     * @returns averageScore
+     * @returns the average of the scores array
      */
-    public int testScoreAverage() throws InvalidTestScores {
+    public int testScoreAverage() throws InvalidTestScores
+    {
         int totalScore = 0;
 
         for(int i = 0; i < scores.length; i++)
@@ -36,7 +37,6 @@ public class TestScores
             }
             totalScore += scores[i];
         }
-
         return totalScore/scores.length;
     }
 }
